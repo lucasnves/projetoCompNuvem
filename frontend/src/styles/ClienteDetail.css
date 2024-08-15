@@ -1,0 +1,54 @@
+.cliente-detail {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.cliente-detail__info {
+    margin-bottom: 20px;
+}
+
+.cliente-detail__info p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.cliente-detail__button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.cliente-detail__button--delete {
+    background-color: #dc3545;
+}
+
+.cliente-detail__button--delete:hover {
+    background-color: #c82333;
+}
+
+.cliente-detail__button--back {
+    background-color: #007bff;
+}
+
+.cliente-detail__button--back:hover {
+    background-color: #0056b3;
+}
+
+.cliente-detail__loading {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+}
+
+.cliente-detail__actions {
+    display: flex;
+    justify-content: space-between;
+}

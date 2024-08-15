@@ -1,0 +1,47 @@
+.cliente-create {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .cliente-create__form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cliente-create__form label {
+    margin-bottom: 15px;
+  }
+  
+  .cliente-create__form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .cliente-create__button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cliente-create__button:hover {
+    background-color: #0056b3;
+  }
+  
+  .cliente-create__button--back {
+    background-color: #6c757d;
+  }
+  
+  .cliente-create__button--back:hover {
+    background-color: #5a6268;
+  }
